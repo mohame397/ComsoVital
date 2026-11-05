@@ -1,0 +1,225 @@
+.health-alerts,
+.health-alerts * {
+  box-sizing: border-box;
+}
+
+.health-alerts {
+  --alert-background: #0c1626;
+  --alert-panel: #111f33;
+  --alert-border: #263b55;
+  --alert-text: #e7eef8;
+  --alert-muted: #9fb0c6;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+  border: 1px solid var(--alert-border);
+  border-radius: 14px;
+  background:
+    radial-gradient(ellipse at 90% 0%, rgb(47 91 146 / 18%), transparent 48%),
+    var(--alert-background);
+  color: var(--alert-text);
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+.health-alerts h1,
+.health-alerts h2,
+.health-alerts p {
+  margin-top: 0;
+}
+
+.health-alerts__heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.health-alerts__heading h1 {
+  margin-bottom: 6px;
+  font-size: clamp(1.35rem, 3vw, 1.8rem);
+}
+
+.health-alerts__subtitle {
+  margin-bottom: 20px;
+  color: var(--alert-muted);
+  line-height: 1.5;
+}
+
+.health-alerts__counter {
+  display: inline-flex;
+  min-width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #536a88;
+  border-radius: 999px;
+  background: #1b2c43;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.health-alerts__section {
+  margin-top: 24px;
+}
+
+.health-alerts__section h2 {
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+.health-alert-list {
+  display: grid;
+  gap: 12px;
+}
+
+.health-alert {
+  --severity-color: #69a6ff;
+  padding: 16px;
+  border: 1px solid var(--alert-border);
+  border-left: 4px solid var(--severity-color);
+  border-radius: 9px;
+  background: var(--alert-panel);
+}
+
+.health-alert--normal {
+  --severity-color: #53c79a;
+}
+
+.health-alert--warning {
+  --severity-color: #f0b84c;
+}
+
+.health-alert--critical {
+  --severity-color: #ff6b73;
+}
+
+.health-alert__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.health-alert__severity {
+  color: var(--severity-color);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.health-alert__status {
+  padding: 4px 9px;
+  border: 1px solid #3c526e;
+  border-radius: 999px;
+  color: #cad7e8;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+
+.health-alert__parameter {
+  margin-bottom: 5px;
+  color: #b7c8de;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.health-alert__message {
+  margin-bottom: 12px;
+  color: var(--alert-text);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.health-alert__timestamp {
+  display: block;
+  color: var(--alert-muted);
+  font-size: 0.8rem;
+}
+
+.health-alert__acknowledge {
+  margin-top: 14px;
+  padding: 8px 12px;
+  border: 1px solid #587da8;
+  border-radius: 6px;
+  background: #203b5d;
+  color: #f5f8fc;
+  cursor: pointer;
+  font: inherit;
+}
+
+.health-alert__acknowledge:hover {
+  background: #2a4c73;
+}
+
+.health-alert__acknowledge:focus-visible {
+  outline: 2px solid #9ec5ff;
+  outline-offset: 2px;
+}
+
+.health-alert__acknowledged {
+  display: inline-block;
+  margin-top: 14px;
+  color: #a9ddc9;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.alert-empty {
+  margin: 0;
+  padding: 16px;
+  border: 1px dashed #3b506a;
+  border-radius: 8px;
+  color: var(--alert-muted);
+}
+
+.health-alerts__update-status {
+  min-height: 1.4em;
+  margin: 16px 0 0;
+  color: var(--alert-muted);
+  font-size: 0.85rem;
+}
+
+.health-alerts-demo {
+  min-height: 100vh;
+  padding: 24px 12px;
+  background: #080f1c;
+}
+
+.health-alerts-demo__notice {
+  max-width: 1000px;
+  margin: 0 auto 12px;
+  color: #f4d58c;
+  font-size: 0.9rem;
+}
+
+.health-alerts-demo__controls {
+  max-width: 1000px;
+  margin: 0 auto 12px;
+}
+
+.health-alerts-demo__controls button {
+  padding: 10px 14px;
+  border: 1px solid #47688e;
+  border-radius: 6px;
+  background: #1a3555;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+}
+
+.health-alerts-demo__controls button:hover {
+  background: #25476e;
+}
+
+@media (max-width: 520px) {
+  .health-alerts {
+    padding: 17px;
+  }
+
+  .health-alerts-demo {
+    padding: 14px 8px;
+  }
+}

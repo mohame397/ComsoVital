@@ -1,0 +1,32 @@
+{
+  "passed": 20,
+  "checks": [
+    "QA target is a local HTTP origin",
+    "Service worker is activated and controls the isolated page",
+    "Offline cache contains every v2 module",
+    "Version 2 cache is installed",
+    "Seeded case is visible before disconnect",
+    "Offline reload renders the full case workspace",
+    "Real-schema manual observation and case survive offline reload",
+    "Offline case includes its dated follow-up and note",
+    "Offline consultation UI loads from cached v2 modules",
+    "Prepared packet snapshot persists unchanged offline",
+    "Offline packet retains source metadata and unknowns",
+    "Training scenarios load offline",
+    "Offline training interactions run from cached code",
+    "Training writes no health records, cases, packets, or other local storage",
+    "Offline reload discards memory-only training progress",
+    "Arabic case view uses RTL while offline",
+    "Arabic mobile case view has no horizontal page overflow",
+    "Arabic language and case persist through offline mobile reload",
+    "No external network requests were attempted",
+    "No browser application runtime errors"
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "screenshots": [
+    "/workspace/sites/cosmovital/qa/v2-case-desktop.png",
+    "/workspace/sites/cosmovital/qa/v2-case-ar-mobile.png"
+  ],
+  "failure": null
+}

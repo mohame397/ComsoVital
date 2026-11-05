@@ -1,0 +1,27 @@
+{
+  "passed": 21,
+  "checks": [
+    "Emergency help visible before any answers",
+    "Unknown symptoms do not produce clearance",
+    "Saved alert opens its exact record",
+    "Low oxygen emergency does not wait for symptom answers",
+    "Emergency has no delayed pressure recheck",
+    "Handover contains observation, answers and sources",
+    "Duplicate urgent observation keeps a valid selected record",
+    "Very high pressure without known symptoms requests urgent contact",
+    "Unknown signs do not enable a delayed recheck",
+    "Explicit negative signs enable conditional repeat while arranging help",
+    "Current red flag overrides pressure branch immediately",
+    "Emergency removes delayed repeat",
+    "Unresponsive but breathing uses recovery route",
+    "Recovery route does not start CPR while breathing normally",
+    "Arabic help uses RTL",
+    "Mobile guidance stays within viewport",
+    "Mobile emergency result precedes optional questions",
+    "New guidance module and view work offline",
+    "Offline symptom override still works",
+    "No symptom answers are persisted",
+    "No runtime errors"
+  ],
+  "errors": []
+}

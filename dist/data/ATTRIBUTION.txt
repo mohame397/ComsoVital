@@ -1,0 +1,12 @@
+Contains information from the BIDMC PPG and Respiration Dataset, made available under the Open Data Commons Attribution License v1.0.
+
+Pimentel, M.A.F., Johnson, A.E.W., Charlton, P.H., and Clifton, D.A. BIDMC PPG and Respiration Dataset (version 1.0.0), PhysioNet, 2018. https://doi.org/10.13026/C2208R. Original study: Pimentel et al., Towards a Robust Estimation of Respiratory Rate from Pulse Oximeters, IEEE TBME 64(8):1914–1923, doi:10.1109/TBME.2016.2613124.
+
+Source: https://physionet.org/content/bidmc/1.0.0/
+License: Open Data Commons Attribution License v1.0 (ODC-By 1.0)
+https://physionet.org/content/bidmc/view-license/1.0.0/
+
+Actual de-identified hospital-monitor numerics from a critically ill patient during care at Beth Israel Deaconess Medical Center, Boston, USA. This terrestrial clinical recording demonstrates plotting of real measurements. It is not astronaut data, a healthy reference population, or evidence validating this application for spaceflight.
+
+Original CSV retained alongside this JSON. All 481 rows mapped without filtering, interpolation, resampling, or synthetic values; column names normalized. Original NaN values represented as JSON null (13 oxygen and 13 pulse samples). Descriptive statistics calculated from nonmissing values.
+SHA256 original CSV: 27d43794cf2e7150db10e8bfe61d2bfdb26873a8f1629ffc5fbee5c9a4eb6ef5

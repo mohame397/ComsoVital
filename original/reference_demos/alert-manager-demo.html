@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health Alert Manager Demo</title>
+  <link rel="stylesheet" href="../alert-manager.css">
+</head>
+<body>
+  <main class="health-alerts-demo">
+    <p class="health-alerts-demo__notice">
+      SIMULATED DEMO ALERTS — These examples are for interface testing only.
+      Severity and messages in a live system must come from the backend.
+    </p>
+    <div class="health-alerts-demo__controls">
+      <button id="simulateApiUpdate" type="button">Simulate API update</button>
+    </div>
+
+    <section class="health-alerts" aria-labelledby="alertsHeading">
+      <header class="health-alerts__heading">
+        <div>
+          <h1 id="alertsHeading">Health alerts</h1>
+          <p class="health-alerts__subtitle">
+            Review incoming system alerts. Acknowledging does not resolve an alert.
+          </p>
+        </div>
+        <output class="health-alerts__counter" data-alert-count
+          aria-label="0 active alerts">0</output>
+      </header>
+
+      <section class="health-alerts__section" aria-labelledby="activeHeading">
+        <h2 id="activeHeading">Active alerts</h2>
+        <div class="health-alert-list" data-alert-active-list></div>
+      </section>
+
+      <section class="health-alerts__section" aria-labelledby="resolvedHeading">
+        <h2 id="resolvedHeading">Resolved alerts</h2>
+        <div class="health-alert-list" data-alert-resolved-list></div>
+      </section>
+
+      <p class="health-alerts__update-status" data-alert-update-status
+        role="status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <script type="module">
+    import { HealthAlertManager } from "./alert-manager.js";
+
+    const alertManager = new HealthAlertManager(
+      document.querySelector(".health-alerts")
+    );
+
+    const simulatedApiResponse = {
+      alerts: [
+        {
+          id: "demo-alert-101",
+          severity: "Normal",
+          parameter: "Heart rate",
+          message: "No anomaly reported by the monitoring service.",
+          timestamp: "2026-10-28T11:55:00Z",
+          status: "active"
+        },
+        {
+          id: "demo-alert-102",
+          severity: "Warning",
+          parameter: "Blood oxygen (SpO2)",
+          message: "The monitoring service reported a change requiring review.",
+          timestamp: "2026-10-28T11:57:00Z",
+          status: "active"
+        },
+        {
+          id: "demo-alert-103",
+          severity: "Critical",
+          parameter: "Core body temperature",
+          message: "The backend anomaly engine issued a critical alert.",
+          timestamp: "2026-10-28T11:58:00Z",
+          status: "active"
+        },
+        {
+          id: "demo-alert-099",
+          severity: "Warning",
+          parameter: "Heart rate variability",
+          message: "Example alert that has already been resolved.",
+          timestamp: "2026-10-28T11:40:00Z",
+          status: "resolved"
+        }
+      ]
+    };
+
+    alertManager.update(simulatedApiResponse);
+
+    document.getElementById("simulateApiUpdate").addEventListener("click", () => {
+      const nextResponse = structuredClone(simulatedApiResponse);
+      nextResponse.alerts[1].message =
+        "Updated message from the same API alert ID; this does not create a duplicate.";
+      nextResponse.alerts[2].status = "resolved";
+      nextResponse.alerts[2].timestamp = new Date().toISOString();
+      alertManager.update(nextResponse);
+    });
+  </script>
+</body>
+</html>

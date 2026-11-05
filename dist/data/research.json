@@ -1,0 +1,3480 @@
+{
+  "title": "BIDMC PPG and Respiration — recording 01",
+  "description": "Actual de-identified hospital-monitor numerics from a critically ill patient during care at Beth Israel Deaconess Medical Center, Boston, USA. This terrestrial clinical recording demonstrates plotting of real measurements. It is not astronaut data, a healthy reference population, or evidence validating this application for spaceflight.",
+  "sourceUrl": "https://physionet.org/content/bidmc/1.0.0/",
+  "downloadUrl": "https://physionet.org/files/bidmc/1.0.0/bidmc_csv/bidmc_01_Numerics.csv",
+  "licenseUrl": "https://physionet.org/content/bidmc/view-license/1.0.0/",
+  "license": "Open Data Commons Attribution License v1.0 (ODC-By 1.0)",
+  "subject": "De-identified BIDMC recording 01; critically ill hospital patient",
+  "environment": "ground clinical",
+  "datasetVersion": "1.0.0",
+  "published": "2018-06-20",
+  "retrieved": "2026-10-31",
+  "columns": [
+    {
+      "key": "seconds",
+      "source": "Time [s]",
+      "unit": "s"
+    },
+    {
+      "key": "heart",
+      "source": "HR",
+      "unit": "beats/min",
+      "method": "monitor-derived from ECG"
+    },
+    {
+      "key": "pulse",
+      "source": "PULSE",
+      "unit": "beats/min",
+      "method": "monitor-derived from PPG"
+    },
+    {
+      "key": "respiration",
+      "source": "RESP",
+      "unit": "breaths/min",
+      "method": "monitor-derived from impedance signal"
+    },
+    {
+      "key": "oxygen",
+      "source": "SpO2",
+      "unit": "%"
+    }
+  ],
+  "points": [
+    {
+      "seconds": 0,
+      "heart": 94,
+      "pulse": 93,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 1,
+      "heart": 94,
+      "pulse": 93,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 2,
+      "heart": 94,
+      "pulse": 93,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 3,
+      "heart": 92,
+      "pulse": 93,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 4,
+      "heart": 93,
+      "pulse": 93,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 5,
+      "heart": 93,
+      "pulse": 93,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 6,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 7,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 8,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 9,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 10,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 11,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 12,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 13,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 14,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 15,
+      "heart": 95,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 16,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 26,
+      "oxygen": 97
+    },
+    {
+      "seconds": 17,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 97
+    },
+    {
+      "seconds": 18,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 97
+    },
+    {
+      "seconds": 19,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 20,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 21,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 22,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 23,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 24,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 25,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 25,
+      "oxygen": 97
+    },
+    {
+      "seconds": 26,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 98
+    },
+    {
+      "seconds": 27,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 98
+    },
+    {
+      "seconds": 28,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 98
+    },
+    {
+      "seconds": 29,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 98
+    },
+    {
+      "seconds": 30,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 98
+    },
+    {
+      "seconds": 31,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 98
+    },
+    {
+      "seconds": 32,
+      "heart": 94,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 98
+    },
+    {
+      "seconds": 33,
+      "heart": 93,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 98
+    },
+    {
+      "seconds": 34,
+      "heart": 93,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 98
+    },
+    {
+      "seconds": 35,
+      "heart": 93,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 97
+    },
+    {
+      "seconds": 36,
+      "heart": 93,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 97
+    },
+    {
+      "seconds": 37,
+      "heart": 93,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 97
+    },
+    {
+      "seconds": 38,
+      "heart": 92,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 97
+    },
+    {
+      "seconds": 39,
+      "heart": 92,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 97
+    },
+    {
+      "seconds": 40,
+      "heart": 92,
+      "pulse": 94,
+      "respiration": 24,
+      "oxygen": 97
+    },
+    {
+      "seconds": 41,
+      "heart": 92,
+      "pulse": 93,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 42,
+      "heart": 92,
+      "pulse": 93,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 43,
+      "heart": 92,
+      "pulse": 93,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 44,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 45,
+      "heart": 95,
+      "pulse": 92,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 46,
+      "heart": 95,
+      "pulse": 92,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 47,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 48,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 49,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 50,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 51,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 52,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 53,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 54,
+      "heart": 89,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 55,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 56,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 57,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 58,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 59,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 60,
+      "heart": 90,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 61,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 62,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 63,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 64,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 65,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 66,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 67,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 68,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 69,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 70,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 71,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 72,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 73,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 74,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 75,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 76,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 77,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 78,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 79,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 80,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 81,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 82,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 83,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 84,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 85,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 86,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 87,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 88,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 89,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 90,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 91,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 92,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 93,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 94,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 95,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 96,
+      "heart": 93,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 97,
+      "heart": 93,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 98,
+      "heart": 93,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 99,
+      "heart": 93,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 100,
+      "heart": 93,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 101,
+      "heart": 93,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 102,
+      "heart": 93,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 103,
+      "heart": 93,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 104,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 105,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 106,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 107,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 108,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 109,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 110,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 23,
+      "oxygen": 97
+    },
+    {
+      "seconds": 111,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 23,
+      "oxygen": null
+    },
+    {
+      "seconds": 112,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 23,
+      "oxygen": null
+    },
+    {
+      "seconds": 113,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 23,
+      "oxygen": null
+    },
+    {
+      "seconds": 114,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 115,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 116,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 117,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 118,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 119,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 120,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 121,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 122,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 123,
+      "heart": 92,
+      "pulse": null,
+      "respiration": 22,
+      "oxygen": null
+    },
+    {
+      "seconds": 124,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 98
+    },
+    {
+      "seconds": 125,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 98
+    },
+    {
+      "seconds": 126,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 98
+    },
+    {
+      "seconds": 127,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 128,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 129,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 130,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 131,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 132,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 133,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 134,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 135,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 136,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 137,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 138,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 139,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 140,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 141,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 142,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 143,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 144,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 145,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 146,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 147,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 148,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 149,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 150,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 151,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 152,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 153,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 154,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 155,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 156,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 157,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 158,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 159,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 160,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 161,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 162,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 163,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 164,
+      "heart": 92,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 165,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 166,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 167,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 168,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 169,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 170,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 171,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 172,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 173,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 174,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 175,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 176,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 177,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 178,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 179,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 180,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 181,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 182,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 183,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 184,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 185,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 186,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 187,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 188,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 189,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 190,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 191,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 192,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 193,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 194,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 195,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 196,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 197,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 198,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 199,
+      "heart": 93,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 200,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 201,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 202,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 203,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 204,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 205,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 206,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 207,
+      "heart": 89,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 208,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 209,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 210,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 211,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 212,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 213,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 214,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 215,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 216,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 217,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 218,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 219,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 220,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 221,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 222,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 223,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 224,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 225,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 226,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 227,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 228,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 229,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 230,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 231,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 232,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 233,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 234,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 235,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 236,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 237,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 238,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 239,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 240,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 241,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 242,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 243,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 244,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 245,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 246,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 247,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 248,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 249,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 250,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 251,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 252,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 253,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 254,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 255,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 256,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 257,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 258,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 259,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 260,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 261,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 262,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 263,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 264,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 265,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 266,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 267,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 268,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 269,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 270,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 271,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 272,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 273,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 274,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 275,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 276,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 277,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 278,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 279,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 280,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 281,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 282,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 283,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 284,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 285,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 286,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 287,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 288,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 289,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 290,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 291,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 292,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 293,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 294,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 295,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 296,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 297,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 298,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 299,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 300,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 301,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 302,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 303,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 304,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 305,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 306,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 307,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 308,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 309,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 310,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 311,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 312,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 313,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 314,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 315,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 316,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 317,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 318,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 319,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 320,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 321,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 322,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 323,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 324,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 325,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 326,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 327,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 328,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 329,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 330,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 331,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 332,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 333,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 334,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 335,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 336,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 337,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 338,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 339,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 340,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 341,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 342,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 343,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 344,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 345,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 346,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 347,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 348,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 349,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 350,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 351,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 352,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 353,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 354,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 355,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 356,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 357,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 358,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 359,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 360,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 361,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 362,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 363,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 364,
+      "heart": 92,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 365,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 366,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 367,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 368,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 369,
+      "heart": 91,
+      "pulse": 92,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 370,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 371,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 372,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 373,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 374,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 375,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 20,
+      "oxygen": 97
+    },
+    {
+      "seconds": 376,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 377,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 378,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 379,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 380,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 381,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 382,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 383,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 384,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 385,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 386,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 387,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 388,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 389,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 390,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 391,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 392,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 393,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 394,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 395,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 396,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 397,
+      "heart": 89,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 398,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 399,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 400,
+      "heart": 89,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 401,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 402,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 403,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 404,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 405,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 406,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 407,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 408,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 409,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 410,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 411,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 412,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 413,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 414,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 415,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 416,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 417,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 418,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 419,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 420,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 421,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 422,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 423,
+      "heart": 92,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 424,
+      "heart": 88,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 425,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 426,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 96
+    },
+    {
+      "seconds": 427,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 96
+    },
+    {
+      "seconds": 428,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 96
+    },
+    {
+      "seconds": 429,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 96
+    },
+    {
+      "seconds": 430,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 431,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 432,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 433,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 434,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 435,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 436,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 437,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 438,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 439,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 440,
+      "heart": 90,
+      "pulse": 91,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 441,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 442,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 443,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 444,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 445,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 446,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 22,
+      "oxygen": 97
+    },
+    {
+      "seconds": 447,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 448,
+      "heart": 90,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 449,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 450,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 451,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 452,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 453,
+      "heart": 91,
+      "pulse": 89,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 454,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 455,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 456,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 457,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 458,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 459,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 460,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 461,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 462,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 463,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 464,
+      "heart": 91,
+      "pulse": 91,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 465,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 466,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 467,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 468,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 469,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 470,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 471,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 472,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 473,
+      "heart": 91,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 474,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 97
+    },
+    {
+      "seconds": 475,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 476,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 477,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 478,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 21,
+      "oxygen": 96
+    },
+    {
+      "seconds": 479,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 20,
+      "oxygen": 96
+    },
+    {
+      "seconds": 480,
+      "heart": 90,
+      "pulse": 90,
+      "respiration": 20,
+      "oxygen": 96
+    }
+  ],
+  "statistics": {
+    "heart": {
+      "min": 88,
+      "max": 95,
+      "mean": 91.32,
+      "count": 481,
+      "missing": 0
+    },
+    "oxygen": {
+      "min": 96,
+      "max": 98,
+      "mean": 96.92,
+      "count": 468,
+      "missing": 13
+    },
+    "respiration": {
+      "min": 20,
+      "max": 26,
+      "mean": 21.44,
+      "count": 481,
+      "missing": 0
+    },
+    "pulse": {
+      "min": 89,
+      "max": 94,
+      "mean": 91.01,
+      "count": 468,
+      "missing": 13
+    },
+    "samples": 481,
+    "durationSeconds": 480,
+    "sampleRateHz": 1
+  },
+  "attribution": "Pimentel, M.A.F., Johnson, A.E.W., Charlton, P.H., and Clifton, D.A. BIDMC PPG and Respiration Dataset (version 1.0.0), PhysioNet, 2018. https://doi.org/10.13026/C2208R. Original study: Pimentel et al., Towards a Robust Estimation of Respiratory Rate from Pulse Oximeters, IEEE TBME 64(8):1914–1923, doi:10.1109/TBME.2016.2613124.",
+  "transformation": "Original CSV retained alongside this JSON. All 481 rows mapped without filtering, interpolation, resampling, or synthetic values; column names normalized. Original NaN values represented as JSON null (13 oxygen and 13 pulse samples). Descriptive statistics calculated from nonmissing values.",
+  "sha256": "27d43794cf2e7150db10e8bfe61d2bfdb26873a8f1629ffc5fbee5c9a4eb6ef5",
+  "limitations": [
+    "Eight-minute single-patient recording; cannot establish healthy or astronaut-specific normal ranges.",
+    "Monitor-derived numbers can contain measurement artefacts.",
+    "No spaceflight exposure or astronaut identity is represented."
+  ],
+  "spaceflightContext": [
+    {
+      "label": "Five NASA human-spaceflight hazards",
+      "value": 5,
+      "detail": "Space radiation; isolation and confinement; distance from Earth; gravity fields; hostile/closed environments.",
+      "sourceUrl": "https://www.nasa.gov/humans-in-space/the-human-body-in-space/"
+    },
+    {
+      "label": "Reported bone-density loss",
+      "value": "1–1.5% / month",
+      "detail": "NASA reports this average loss in weight-bearing bones during four-to-six-month missions; this is population context, not an individual prediction.",
+      "sourceUrl": "https://www.nasa.gov/reference/risk-of-spaceflight-induced-bone-changes/"
+    },
+    {
+      "label": "Inspiration4 in-flight mean sleep",
+      "value": "6.7 h / night",
+      "detail": "Published mean for the four-person short-duration Inspiration4 crew; not a long-duration mission baseline.",
+      "sourceUrl": "https://www.nature.com/articles/s41586-024-07648-x"
+    },
+    {
+      "label": "Public human spaceflight study",
+      "value": "OSD-575",
+      "detail": "SpaceX Inspiration4 Blood Serum Metabolic Panel and Immune/Cardiac Cytokine Arrays. Separate research reference; its participant data are not used in this chart.",
+      "sourceUrl": "https://osdr.nasa.gov/bio/repo/data/studies/OSD-575"
+    }
+  ],
+  "licenseNotice": "Contains information from the BIDMC PPG and Respiration Dataset, made available under the Open Data Commons Attribution License v1.0."
+}

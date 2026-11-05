@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Health Charts Demo</title>
+  <link rel="stylesheet" href="../health-charts.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <main class="health-charts-demo">
+    <h1>Astronaut Health Monitoring Charts</h1>
+    <p class="simulation-notice">
+      SIMULATED DATA ONLY — These generated sample readings are for interface
+      testing and are not real astronaut measurements or medical advice.
+    </p>
+
+    <div class="demo-controls">
+      <button id="addReading" type="button">Add simulated reading</button>
+      <span id="demoStatus" class="demo-status" aria-live="polite">
+        Showing 60 simulated readings per chart.
+      </span>
+    </div>
+
+    <section class="health-chart-grid" aria-label="Simulated health charts">
+      <article class="health-chart-card">
+        <h2>Heart Rate (BPM)</h2>
+        <div class="health-chart-wrap">
+          <canvas data-health-chart="heart_rate_bpm" role="img"
+            aria-label="Simulated heart rate line chart"></canvas>
+        </div>
+      </article>
+      <article class="health-chart-card">
+        <h2>Blood Oxygen (SpO2 %)</h2>
+        <div class="health-chart-wrap">
+          <canvas data-health-chart="spo2_percent" role="img"
+            aria-label="Simulated blood oxygen line chart"></canvas>
+        </div>
+      </article>
+      <article class="health-chart-card">
+        <h2>Heart Rate Variability (HRV, ms)</h2>
+        <div class="health-chart-wrap">
+          <canvas data-health-chart="hrv_ms" role="img"
+            aria-label="Simulated heart rate variability line chart"></canvas>
+        </div>
+      </article>
+      <article class="health-chart-card">
+        <h2>Core Body Temperature (°C)</h2>
+        <div class="health-chart-wrap">
+          <canvas data-health-chart="core_temperature_c" role="img"
+            aria-label="Simulated core body temperature line chart"></canvas>
+        </div>
+      </article>
+      <article class="health-chart-card">
+        <h2>Stress / EDA (µS)</h2>
+        <div class="health-chart-wrap">
+          <canvas data-health-chart="stress_eda_us" role="img"
+            aria-label="Simulated stress and EDA line chart"></canvas>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script type="module">
+    import { createHealthCharts } from "./health-charts.js";
+
+    const METRICS = {
+      heart_rate_bpm: { center: 72, variation: 8 },
+      spo2_percent: { center: 97.5, variation: 1.2 },
+      hrv_ms: { center: 58, variation: 18 },
+      core_temperature_c: { center: 36.8, variation: 0.25 },
+      stress_eda_us: { center: 2.2, variation: 1.1 }
+    };
+
+    function simulatedValue(metric, index) {
+      const { center, variation } = METRICS[metric];
+      return Number((
+        center +
+        Math.sin(index / 5) * variation * 0.55 +
+        (Math.random() - 0.5) * variation
+      ).toFixed(1));
+    }
+
+    function createSimulatedHistory() {
+      const now = Date.now();
+      const history = {};
+      Object.keys(METRICS).forEach(metric => {
+        history[metric] = Array.from({ length: 60 }, (_, index) => ({
+          timestamp: new Date(now - (59 - index) * 5 * 60 * 1000).toISOString(),
+          value: simulatedValue(metric, index)
+        }));
+      });
+      return history;
+    }
+
+    const charts = createHealthCharts(
+      document.querySelector(".health-chart-grid"),
+      createSimulatedHistory()
+    );
+    let readingIndex = 60;
+
+    document.getElementById("addReading").addEventListener("click", () => {
+      const reading = {
+        timestamp: new Date().toISOString()
+      };
+      Object.keys(METRICS).forEach(metric => {
+        reading[metric] = simulatedValue(metric, readingIndex);
+      });
+      readingIndex += 1;
+      charts.update(reading);
+      document.getElementById("demoStatus").textContent =
+        "Added a simulated reading; each chart keeps only its latest 60 points.";
+    });
+  </script>
+</body>
+</html>
