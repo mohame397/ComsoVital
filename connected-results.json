@@ -1,0 +1,8 @@
+{
+  "protectedRouteRedirect": true,
+  "loginEnabled": true,
+  "warningCount": 0,
+  "noLocalHealthData": true,
+  "errors": [],
+  "signupEnabled": true
+}

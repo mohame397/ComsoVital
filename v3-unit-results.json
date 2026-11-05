@@ -1,0 +1,77 @@
+[
+  {
+    "file": "tests/account.test.mjs",
+    "passed": true,
+    "count": 11
+  },
+  {
+    "file": "tests/alerts.test.mjs",
+    "passed": true,
+    "count": 15
+  },
+  {
+    "file": "tests/charts.test.mjs",
+    "passed": true,
+    "count": 18
+  },
+  {
+    "file": "tests/cloud.test.mjs",
+    "passed": true,
+    "count": 13
+  },
+  {
+    "file": "tests/core.test.mjs",
+    "passed": true,
+    "count": 19
+  },
+  {
+    "file": "tests/datasets.test.mjs",
+    "passed": true,
+    "count": 6
+  },
+  {
+    "file": "tests/guidance.test.mjs",
+    "passed": true,
+    "count": 15
+  },
+  {
+    "file": "tests/health-ui.test.mjs",
+    "passed": true,
+    "count": 14
+  },
+  {
+    "file": "tests/import-mapper.test.mjs",
+    "passed": true,
+    "count": 11
+  },
+  {
+    "file": "tests/insights.test.mjs",
+    "passed": true,
+    "count": 11
+  },
+  {
+    "file": "tests/mission.test.mjs",
+    "passed": true,
+    "count": 11
+  },
+  {
+    "file": "tests/store.test.mjs",
+    "passed": true,
+    "count": 18
+  },
+  {
+    "file": "tests/training.test.mjs",
+    "passed": true,
+    "count": 9
+  },
+  {
+    "file": "tests/workspace-persistence.test.mjs",
+    "passed": true,
+    "count": 4
+  },
+  {
+    "file": "tests/workspace.test.mjs",
+    "passed": true,
+    "count": 5
+  }
+]
